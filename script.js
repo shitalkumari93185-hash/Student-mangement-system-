@@ -17,8 +17,7 @@ let tasks = JSON.parse(
 let currentFilter = "all";
 
 function saveTasks() {
-    localStorage.setItem("studentTasks", JSON.stringify(tasks));
-}
+    localStorage.setItem("studentTasks", JSON.stringify(tasks));}
 
 function addTask() {
     const title = taskInput.value.trim();
